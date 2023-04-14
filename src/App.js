@@ -56,6 +56,8 @@ function App() {
     setSpiritOther(!spiritOther);
   };
 
+  console.log(drinks)
+
   const filteredDrinks = drinks.filter((drink) => {
     return (
       drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
