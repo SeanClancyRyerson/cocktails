@@ -20,9 +20,19 @@ const spiritList = [
   "other",
 ];
 
+const glassList = [
+  "Collins Glass",
+  "Copper Mug",
+  "Coupe",
+  "Julep Cup",
+  "Rocks Glass",
+  "Tiki Glass",
+];
+
 function App() {
   const [searchValue, setSearchValue] = useState("");
   const [spiritType, setSpiritType] = useState("");
+  const [glassType, setGlassType] = useState("");
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -31,18 +41,34 @@ function App() {
   const filteredDrinks = drinks.filter((drink) => {
     return (
       drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
-      drink.spirit.includes(spiritType)
+      drink.spirit.includes(spiritType) &&
+      drink.glassware.includes(glassType)
     );
   });
 
+  const clearFilters = () => {
+    setSpiritType("");
+    setGlassType("");
+  };
+
   const setSpiritFilter = (e) => {
+    e.currentTarget.classList.toggle("active");
     if (spiritType === e.currentTarget.getAttribute("data-value")) {
       setSpiritType("");
     } else {
       setSpiritType(e.currentTarget.getAttribute("data-value"));
     }
-    console.log(e.currentTarget);
+    //line below not currently in effect
+  };
+
+  const setGlassFilter = (e) => {
     e.currentTarget.classList.toggle("active");
+    if (glassType === e.currentTarget.getAttribute("data-value")) {
+      setGlassType("");
+    } else {
+      setGlassType(e.currentTarget.getAttribute("data-value"));
+    }
+    //line below not currently in effect
   };
 
   return (
@@ -84,6 +110,27 @@ function App() {
                     onClick={setSpiritFilter}
                   >
                     {spirit}
+                  </button>
+                );
+              })}
+            </div>
+          </Collapsible>
+          <Collapsible
+            trigger="Glassware"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+          >
+            <div className="filter-items">
+              {glassList.map((glass) => {
+                return (
+                  <button
+                    key={glass}
+                    type="button"
+                    className="collapsible-button"
+                    data-value={glass}
+                    onClick={setGlassFilter}
+                  >
+                    {glass}
                   </button>
                 );
               })}

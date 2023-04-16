@@ -13,13 +13,13 @@
     flex-direction: column;
 }
 
-.active {
-    
-}
-
 .collapsible-button {
     width: 50%;
     background-color: #03a9f4;
     border-radius: 5px;
     text-align: left;
+}
+
+.active {
+    background-color: #fb8332;
 }

@@ -57,7 +57,7 @@
         "id":5,
         "name":"Margarita",
         "spirit":"tequila",
-        "glassware":"Coupe/Rocks Glass",
+        "glassware":"Rocks Glass",
         "menu":"false",
         "description":"How much do I need to say about a Margarita?",
         "ingredients":["2 ounces tequilla",
