@@ -14,5 +14,10 @@ body {
 
 .body-section{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.main-section {
+    grid-column-start: 2;
+    grid-column-end: 5;
 }

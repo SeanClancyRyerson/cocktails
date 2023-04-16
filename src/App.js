@@ -161,7 +161,9 @@ function App() {
             </button>
           </div>
         </div>
-        <Cocktail drinks={filteredDrinks} />
+        <div className="main-section">
+          <Cocktail drinks={filteredDrinks} />
+        </div>
       </div>
     </div>
   );
