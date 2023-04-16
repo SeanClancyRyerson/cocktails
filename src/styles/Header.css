@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
+.header-section {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    background-color: #2d3a40;
+}
 
 .header-title {
     font-size: 2rem;
@@ -23,14 +33,6 @@
 .header-title h2:nth-child(2) {
     color: #03a9f4;
     animation: animate 4s ease-in-out infinite;
-}
-
-.header-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 4rem;
-    background-color: #2d3a40;
 }
 
 .logo-icon {
