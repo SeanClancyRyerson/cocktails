@@ -6,7 +6,7 @@
 
 .Collapsible__contentInner {
     padding: 10px;
-    border: 1px solid lightGrey;
+    /* border: 1px solid lightGrey; */
     border-top: 0;
 }
 
@@ -28,7 +28,7 @@
     position: relative;
     border: 1px solid white;
     padding: 10px;
-    background: gray;
+    background: #2d3a40;
     color: white;
 }
 
@@ -37,7 +37,7 @@
     content: '\f107';
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 12px;
     display: block;
     transition: transform 300ms;
 }
