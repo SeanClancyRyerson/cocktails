@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Collapsible from "react-collapsible";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Icon from "@mdi/react";
 import { mdiMagnify } from "@mdi/js";
 import "./App.css";
