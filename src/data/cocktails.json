@@ -2,7 +2,7 @@
     {
         "id":3,
         "name":"Old Fashioned",
-        "spirit":"whiskey",
+        "spirit":"Whiskey",
         "glassware":"Rocks Glass",
         "menu":"false",
         "description":"A combination of spirit, sugar, bitters, and water",
@@ -22,7 +22,7 @@
     {
         "id":2,
         "name":"Bee's Knees",
-        "spirit":"gin",
+        "spirit":"Gin",
         "glassware":"Coupe",
         "menu":"true",
         "description":"A clean and simple gin cocktail",
@@ -39,7 +39,7 @@
     {
         "id":1,
         "name":"Moscow Mule",
-        "spirit":"vodka",
+        "spirit":"Vodka",
         "glassware":"Copper Mug",
         "menu":"false",
         "description":"A classic cocktail to be served in a copper mug",
@@ -56,7 +56,7 @@
     {
         "id":5,
         "name":"Margarita",
-        "spirit":"tequila",
+        "spirit":"Tequila",
         "glassware":"Rocks Glass",
         "menu":"false",
         "description":"How much do I need to say about a Margarita?",
@@ -74,7 +74,7 @@
     {
         "id":4,
         "name":"Pegu Club",
-        "spirit":"gin",
+        "spirit":"Gin",
         "glassware":"Coupe",
         "menu":"false",
         "description":"A sour style gin cocktail with some bitters to spice it up.",
@@ -93,7 +93,7 @@
     {
         "id":6,
         "name":"Gold Rush",
-        "spirit":"whiskey",
+        "spirit":"Whiskey",
         "glassware":"Rocks Glass",
         "menu":"false",
         "description":"A bourbon riff on a Bee's Knees",
@@ -111,7 +111,7 @@
     {
         "id":7,
         "name":"Daiquiri",
-        "spirit":"rum",
+        "spirit":"Rum",
         "glassware":"Coupe",
         "menu":"false",
         "description":"The simplest and cleanest of rum drinks",
@@ -129,7 +129,7 @@
     {
         "id":8,
         "name":"Mojito",
-        "spirit":"rum",
+        "spirit":"Rum",
         "glassware":"Collins Glass",
         "menu":"false",
         "description":"The perfect drink for a hot day",
@@ -152,7 +152,7 @@
     {
         "id":9,
         "name":"Orange Creamsicle",
-        "spirit":"vodka",
+        "spirit":"Vodka",
         "glassware":"Rocks Glass",
         "menu":"false",
         "description":"Everything you love about a creamsicle and a cocktail coming together",
@@ -172,7 +172,7 @@
     {
         "id":10,
         "name":"Key Lime in d'Coconut",
-        "spirit":"rum",
+        "spirit":"Rum",
         "glassware":"Tiki Glass",
         "menu":"false",
         "description":"A delicious tiki drink inspired from South Seas in Captiva, FL",
@@ -193,7 +193,7 @@
     {
         "id":11,
         "name":"Sidecar",
-        "spirit":"brandy",
+        "spirit":"Brandy",
         "glassware":"Coupe",
         "menu":"false",
         "description":"A delicious tiki drink inspired from South Seas in Captiva, FL",
@@ -213,7 +213,7 @@
     {
         "id":12,
         "name":"Mint Julep",
-        "spirit":"whiskey",
+        "spirit":"Whiskey",
         "glassware":"Julep Cup",
         "menu":"false",
         "description":"The standard cocktail for those wearing funny hats and watching animals run",
@@ -233,7 +233,7 @@
     {
         "id":13,
         "name":"Simple Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A 1:1 sugar syrup",
@@ -249,7 +249,7 @@
     {
         "id":14,
         "name":"Semi-Rich Simple Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A 1.5:1 sugar syrup",
@@ -265,7 +265,7 @@
     {
         "id":15,
         "name":"Rich Simple Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A 2:1 sugar syrup",
@@ -281,7 +281,7 @@
     {
         "id":16,
         "name":"Rich Demerara Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A 2:1 Demerara sugar syrup",
@@ -297,7 +297,7 @@
     {
         "id":17,
         "name":"Honey Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A 2:1 Honey syrup",
@@ -313,7 +313,7 @@
     {
         "id":18,
         "name":"Grenadine Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A homemade grenadine syrup",
@@ -332,7 +332,7 @@
     {
         "id":19,
         "name":"Orgeat Syrup",
-        "spirit":"other",
+        "spirit":"Other",
         "glassware":"n/a",
         "menu":"false",
         "description":"A homemade almond syrup",

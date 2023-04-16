@@ -10,14 +10,14 @@ import Cocktail from "./components/cocktail/Cocktail";
 import drinks from "./data/cocktails.json";
 
 const spiritList = [
-  "brandy",
-  "gin",
-  "mezcal",
-  "rum",
-  "tequila",
-  "vodka",
-  "whiskey",
-  "other",
+  "Brandy",
+  "Gin",
+  "Mezcal",
+  "Rum",
+  "Tequila",
+  "Vodka",
+  "Whiskey",
+  "Other",
 ];
 
 const glassList = [
