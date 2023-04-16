@@ -85,7 +85,7 @@ function App() {
               value={searchValue}
               onChange={handleInputChange}
             />
-            <button>
+            <button className="search-button">
               <Icon path={mdiMagnify} size={0.7} />
             </button>
           </div>

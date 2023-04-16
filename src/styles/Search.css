@@ -16,7 +16,7 @@ input:focus {
     border: 0;
 }
 
-button {
+.search-button {
     height: 40px;
     align-items: center;
     background-clip: padding-box;
@@ -44,12 +44,12 @@ button {
     width: auto;
 }
 
-button:hover {
+.search-button:hover {
     background-color: #fb8332;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
 }
 
-button:active {
+.search-button:active {
     background-color: #c85000;
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
