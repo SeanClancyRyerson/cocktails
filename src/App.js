@@ -3,9 +3,6 @@ import Collapsible from "react-collapsible";
 import Icon from "@mdi/react";
 import { mdiMagnify } from "@mdi/js";
 import "./App.css";
-import "./styles/Header.css";
-import "./styles/Search.css";
-import "./styles/Filter.css";
 import Cocktail from "./components/cocktail/Cocktail";
 
 import drinks from "./data/cocktails.json";
@@ -68,15 +65,19 @@ function App() {
         <img className="logo-icon" src="./logo512.png" alt="logo icon" />
       </div>
       <div className="body-section">
-        <div>
-          <Collapsible trigger="Spirit">
-            <div className="filter-section">
+        <div className="filter-section">
+          <Collapsible
+            trigger="Spirit"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+          >
+            <div className="filter-items">
               {spiritList.map((spirit) => {
                 return (
                   <button
                     key={spirit}
                     type="button"
-                    className="collapsible-section"
+                    className="collapsible-button"
                     data-value={spirit}
                     onClick={setSpiritFilter}
                   >

@@ -1,9 +1,22 @@
 
 .filter-section {
+    padding-top: 25px;
+}
+
+.filter-tab, .filter-tab--open{
+    display: block;
+    width: 50%;
+}
+
+.filter-items {
     display: flex;
     flex-direction: column;
 }
 
 .active {
-    background-color: aqua;
+    
+}
+
+.collapsible-button {
+    width: 50%;
 }

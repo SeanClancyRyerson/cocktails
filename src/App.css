@@ -1,7 +1,14 @@
+@import "./styles/Header.css";
+@import "./styles/Search.css";
+@import "./styles/Filter.css";
+@import "./styles/collapsible.css";
+
 body {
     margin: 0;
+    background-color: var(--background-color);
 }
 
 .body-section{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
