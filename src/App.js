@@ -113,6 +113,7 @@ function App() {
             trigger="Spirit"
             triggerClassName="filter-tab"
             triggerOpenedClassName="filter-tab--open"
+            open={true}
           >
             <div className="filter-items">
               {spiritList.map((spirit) => {
@@ -134,6 +135,7 @@ function App() {
             trigger="Glassware"
             triggerClassName="filter-tab"
             triggerOpenedClassName="filter-tab--open"
+            open={true}
           >
             <div className="filter-items">
               {glassList.map((glass) => {
@@ -152,7 +154,11 @@ function App() {
             </div>
           </Collapsible>
           <div>
-            <button type="button" onClick={clearFilters}>
+            <button
+              type="button"
+              onClick={clearFilters}
+              style={{ margin: "3px" }}
+            >
               Clear Filters
             </button>
           </div>
