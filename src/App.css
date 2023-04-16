@@ -3,6 +3,10 @@
 @import "./styles/Filter.css";
 @import "./styles/collapsible.css";
 
+:root {
+    caret-color: transparent;
+}
+
 body {
     margin: 0;
     background-color: var(--background-color);

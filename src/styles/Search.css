@@ -10,6 +10,7 @@ input {
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: 0;
+    caret-color: black;
 }
 
 input:focus {
