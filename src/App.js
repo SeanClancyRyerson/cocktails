@@ -52,23 +52,29 @@ function App() {
   };
 
   const setSpiritFilter = (e) => {
-    e.currentTarget.classList.toggle("active");
+    const collection = document.getElementsByClassName("active");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active");
+    }
     if (spiritType === e.currentTarget.getAttribute("data-value")) {
       setSpiritType("");
     } else {
+      e.currentTarget.classList.toggle("active");
       setSpiritType(e.currentTarget.getAttribute("data-value"));
     }
-    //line below not currently in effect
   };
 
   const setGlassFilter = (e) => {
-    e.currentTarget.classList.toggle("active");
+    const collection = document.getElementsByClassName("active");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active");
+    }
     if (glassType === e.currentTarget.getAttribute("data-value")) {
       setGlassType("");
     } else {
+      e.currentTarget.classList.toggle("active");
       setGlassType(e.currentTarget.getAttribute("data-value"));
     }
-    //line below not currently in effect
   };
 
   return (
