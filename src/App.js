@@ -47,32 +47,41 @@ function App() {
   });
 
   const clearFilters = () => {
+    const collectionSpirit = document.getElementsByClassName("active-spirit");
+    for (var i = 0; i < collectionSpirit.length; i++) {
+      collectionSpirit[i].classList.remove("active-spirit");
+    }
     setSpiritType("");
+    const collectionGlass = document.getElementsByClassName("active-glass");
+    for (var i = 0; i < collectionGlass.length; i++) {
+      collectionGlass[i].classList.remove("active-glass");
+    }
     setGlassType("");
+    setSearchValue("");
   };
 
   const setSpiritFilter = (e) => {
-    const collection = document.getElementsByClassName("active");
+    const collection = document.getElementsByClassName("active-spirit");
     for (var i = 0; i < collection.length; i++) {
-      collection[i].classList.remove("active");
+      collection[i].classList.remove("active-spirit");
     }
     if (spiritType === e.currentTarget.getAttribute("data-value")) {
       setSpiritType("");
     } else {
-      e.currentTarget.classList.toggle("active");
+      e.currentTarget.classList.toggle("active-spirit");
       setSpiritType(e.currentTarget.getAttribute("data-value"));
     }
   };
 
   const setGlassFilter = (e) => {
-    const collection = document.getElementsByClassName("active");
+    const collection = document.getElementsByClassName("active-glass");
     for (var i = 0; i < collection.length; i++) {
-      collection[i].classList.remove("active");
+      collection[i].classList.remove("active-glass");
     }
     if (glassType === e.currentTarget.getAttribute("data-value")) {
       setGlassType("");
     } else {
-      e.currentTarget.classList.toggle("active");
+      e.currentTarget.classList.toggle("active-glass");
       setGlassType(e.currentTarget.getAttribute("data-value"));
     }
   };
@@ -142,6 +151,11 @@ function App() {
               })}
             </div>
           </Collapsible>
+          <div>
+            <button type="button" onClick={clearFilters}>
+              Clear Filters
+            </button>
+          </div>
         </div>
         <Cocktail drinks={filteredDrinks} />
       </div>
