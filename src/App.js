@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Collapsible from "react-collapsible";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Icon from "@mdi/react";
 import { mdiMagnify } from "@mdi/js";
 import "./App.css";
@@ -53,7 +51,7 @@ function App() {
     }
     setSpiritType("");
     const collectionGlass = document.getElementsByClassName("active-glass");
-    for (var i = 0; i < collectionGlass.length; i++) {
+    for (i = 0; i < collectionGlass.length; i++) {
       collectionGlass[i].classList.remove("active-glass");
     }
     setGlassType("");
