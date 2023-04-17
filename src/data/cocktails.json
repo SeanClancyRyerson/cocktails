@@ -224,10 +224,50 @@
         "directions":["Fill shaker with all ingregients",
                     "Add ice and shake ~15 seconds",
                     "Fill Julep Cup half way with crushed ice",
-                    "Double strain into chilled coupe",
+                    "Double strain into chilled Julep Cup",
                     "Top off with crushed ice"],
         "notes":"The Mint Julep became the official drink of the Kentucky Derby in 1938",
         "image":"https://assets.epicurious.com/photos/605b5500012ec8626c0458f4/4:3/w_3108,h_2331,c_limit/Editorial_01_MintJulep-v2-6x4.jpg"
+    },
+
+    {
+        "id":20,
+        "name":"Queen's Park Swizzle",
+        "spirit":"Rum",
+        "glassware":"Collins Glass",
+        "menu":"false",
+        "description":"A blend of a tiki drink and a mojito",
+        "ingredients":["2 ounces rum",
+                    "3/4 ounces lime juice",
+                    "1/2 ounce rich Demerara syrup",
+                    "8-10 mint leaves",
+                    "4-6 dashes Angostura Bitters",
+                    "Garnish: mint sprig"],
+        "directions":["Add mint to collins glass. Lightly move mint around",
+                    "Add sugar, lime juice, and rum to glass",
+                    "Fill collins glass nearly full with crushed ice"],
+        "notes":"Trinidad's Queens Park Hotel may have closed in 1996, but its eponymous drink has endured well into the 21st century.",
+        "image":"https://boozybisou.com/assets/img/qps.png?nf_resize=smartcrop&w=1200&h=900"
+    },
+
+    {
+        "id":21,
+        "name":"Cosmopolitan",
+        "spirit":"Vodka",
+        "glassware":"Coupe",
+        "menu":"false",
+        "description":"So you've been watching 'Sex in the City' (Not for Kim)",
+        "ingredients":["1.5 ounces vodka",
+                    "3/4 ounces triple sec",
+                    "1/2 ounce cranberry juice",
+                    "1/2 ounce lime juice",
+                    "Garnish: orange oil, lime wheel"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Double strain into chilled coupe",
+                    "Top off with crushed ice and Angostura Bitters"],
+        "notes":"Trinidad/’s Queens Park Hotel may have closed in 1996, but its eponymous drink has endured well into the 21st century.",
+        "image":"https://www.inspiredtaste.net/wp-content/uploads/2016/06/Best-Cosmopolitan-Cocktail-Recipe-1-1200.jpg"
     },
 
     {
