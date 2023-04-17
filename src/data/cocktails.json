@@ -264,10 +264,50 @@
                     "Garnish: orange oil, lime wheel"],
         "directions":["Fill shaker with all ingregients",
                     "Add ice and shake ~15 seconds",
-                    "Double strain into chilled coupe",
-                    "Top off with crushed ice and Angostura Bitters"],
-        "notes":"Trinidad/’s Queens Park Hotel may have closed in 1996, but its eponymous drink has endured well into the 21st century.",
+                    "Double strain into chilled coupe"],
+        "notes":"Most people don't realize that back in the 60's it was actually a recipe on Ocean Spray Cranberry Juice bottles and was known as the 'Harpoon.'",
         "image":"https://www.inspiredtaste.net/wp-content/uploads/2016/06/Best-Cosmopolitan-Cocktail-Recipe-1-1200.jpg"
+    },
+
+    {
+        "id":22,
+        "name":"Naked & Famous",
+        "spirit":"Mezcal",
+        "glassware":"Coupe",
+        "menu":"false",
+        "description":"A mezcal drink with all equal parts. Don't want to get too out of comfort zones.",
+        "ingredients":["3/4 ounces mezcal",
+                    "3/4 ounces Yellow Chartreuse",
+                    "3/4 ounces Aperol",
+                    "3/4 ounce lime juice",
+                    "Garnish: None (naked)"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Double strain into chilled coupe"],
+        "notes":"Created in 2011 by Joaquín Simó at Death & Co. in New York City",
+        "image":"https://assets3.thrillist.com/v1/image/1903076/414x310/crop;webp=auto;jpeg_quality=60;progressive.jpg"
+    },
+
+    {
+        "id":23,
+        "name":"Paloma",
+        "spirit":"Tequila",
+        "glassware":"Rocks Glass",
+        "menu":"false",
+        "description":"A greatly grapefruity guise of a margarita",
+        "ingredients":["1.5 ounces tequilla",
+                    "1 ounce grapefruit juice",
+                    "3/4 ounces lime juice",
+                    "3/4 ounces simple syrup",
+                    "3/4 ounce lime juice",
+                    "1 ounce soda water",
+                    "Garnish: grapefruit peel"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add ice and shake ~15 seconds",
+                    "Double strain into glass",
+                    "Top with soda water"],
+        "notes":"Some believe that it is named after La Paloma (“The Dove”), the popular folk song composed in the early 1860s.",
+        "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5wuDH8GLkXrq_c9k0O9I5Ell02-ZRMSG9Y_uo6VH9kl6RgtdLgtboZpiHX7F9ClapnwO9vLsA2JMBEPEeMgShcfi_58tVDNESA3k-f0s7p5DJHyjeCWPo8-icSlXLnX9qrOM2NoMIz2ctE3YmBWGIeocgee_SFBa-PqwAKzew41Ju_fpcNZxdBKWA/s1600/Paloma%20900.jpg"
     },
 
     {
