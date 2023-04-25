@@ -15,6 +15,7 @@ const spiritList = [
   "Tequila",
   "Vodka",
   "Whiskey",
+  "Wine",
   "Other",
 ];
 
@@ -26,6 +27,28 @@ const glassList = [
   "Julep Cup",
   "Rocks Glass",
   "Tiki Glass",
+];
+
+const liqueurList = [
+  "Aperol",
+  "Cointreau",
+  "Curaçao",
+  "Green Chartreuse",
+  "Maraschino",
+  "Sweet Vermouth",
+  "Triple sec",
+  "Yellow Chartreuse",
+];
+
+const bittersList = ["Angostura", "Orange"];
+
+const juiceList = [
+  "Cranberry",
+  "Grapefruit",
+  "Lemon",
+  "Lime",
+  "Orange",
+  "Pineapple",
 ];
 
 function App() {
