@@ -311,6 +311,25 @@
     },
 
     {
+        "id":24,
+        "name":"Manhattan",
+        "spirit":"Whiskey",
+        "glassware":"Coupe",
+        "menu":"false",
+        "description":"A greatly grapefruity guise of a margarita",
+        "ingredients":["2 ounces Rye whiskey",
+                    "1 ounce Sweet Vermouth",
+                    "2 dashes Angostura bitters",
+                    "Garnish: Cherry"],
+        "directions":["Fill mixing glass with all ingredients",
+                    "Add ice and stir until chilled",
+                    "Double strain into glass",
+                    "Drop cherry in the glass"],
+        "notes":"A 'Perfect' Manhattan can be made with equal parts Sweet and Dry Vermouth",
+        "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5wuDH8GLkXrq_c9k0O9I5Ell02-ZRMSG9Y_uo6VH9kl6RgtdLgtboZpiHX7F9ClapnwO9vLsA2JMBEPEeMgShcfi_58tVDNESA3k-f0s7p5DJHyjeCWPo8-icSlXLnX9qrOM2NoMIz2ctE3YmBWGIeocgee_SFBa-PqwAKzew41Ju_fpcNZxdBKWA/s1600/Paloma%20900.jpg"
+    },
+
+    {
         "id":13,
         "name":"Simple Syrup",
         "spirit":"Other",
