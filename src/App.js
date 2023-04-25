@@ -22,6 +22,7 @@ const glassList = [
   "Collins Glass",
   "Copper Mug",
   "Coupe",
+  "Flute",
   "Julep Cup",
   "Rocks Glass",
   "Tiki Glass",
