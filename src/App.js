@@ -54,6 +54,9 @@ const juiceList = [
 function App() {
   const [searchValue, setSearchValue] = useState("");
   const [spiritType, setSpiritType] = useState("");
+  const [liqueurType, setLiqueurType] = useState("");
+  const [juiceType, setJuiceType] = useState("");
+  const [bittersType, setBittersType] = useState("");
   const [glassType, setGlassType] = useState("");
 
   const handleInputChange = (event) => {
@@ -64,6 +67,9 @@ function App() {
     return (
       drink.name.toLowerCase().includes(searchValue.toLowerCase()) &&
       drink.spirit.includes(spiritType) &&
+      drink.liqueur.includes(liqueurType) &&
+      drink.juice.includes(juiceType) &&
+      drink.bitters.includes(bittersType) &&
       drink.glassware.includes(glassType)
     );
   });
@@ -74,6 +80,25 @@ function App() {
       collectionSpirit[i].classList.remove("active-spirit");
     }
     setSpiritType("");
+
+    const collectionLiqueur = document.getElementsByClassName("active-liqueur");
+    for (var i = 0; i < collectionLiqueur.length; i++) {
+      collectionLiqueur[i].classList.remove("active-liqueur");
+    }
+    setLiqueurType("");
+
+    const collectionJuice = document.getElementsByClassName("active-juice");
+    for (var i = 0; i < collectionJuice.length; i++) {
+      collectionJuice[i].classList.remove("active-juice");
+    }
+    setJuiceType("");
+
+    const collectionBitters = document.getElementsByClassName("active-bitters");
+    for (var i = 0; i < collectionBitters.length; i++) {
+      collectionBitters[i].classList.remove("active-bitters");
+    }
+    setBittersType("");
+
     const collectionGlass = document.getElementsByClassName("active-glass");
     for (i = 0; i < collectionGlass.length; i++) {
       collectionGlass[i].classList.remove("active-glass");
@@ -92,6 +117,45 @@ function App() {
     } else {
       e.currentTarget.classList.toggle("active-spirit");
       setSpiritType(e.currentTarget.getAttribute("data-value"));
+    }
+  };
+
+  const setLiqueurFilter = (e) => {
+    const collection = document.getElementsByClassName("active-liqueur");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active-liqueur");
+    }
+    if (liqueurType === e.currentTarget.getAttribute("data-value")) {
+      setLiqueurType("");
+    } else {
+      e.currentTarget.classList.toggle("active-liqueur");
+      setLiqueurType(e.currentTarget.getAttribute("data-value"));
+    }
+  };
+
+  const setBittersFilter = (e) => {
+    const collection = document.getElementsByClassName("active-bitters");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active-bitters");
+    }
+    if (bittersType === e.currentTarget.getAttribute("data-value")) {
+      setBittersType("");
+    } else {
+      e.currentTarget.classList.toggle("active-bitters");
+      setBittersType(e.currentTarget.getAttribute("data-value"));
+    }
+  };
+
+  const setJuiceFilter = (e) => {
+    const collection = document.getElementsByClassName("active-juice");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active-juice");
+    }
+    if (juiceType === e.currentTarget.getAttribute("data-value")) {
+      setJuiceType("");
+    } else {
+      e.currentTarget.classList.toggle("active-juice");
+      setJuiceType(e.currentTarget.getAttribute("data-value"));
     }
   };
 
@@ -154,10 +218,76 @@ function App() {
             </div>
           </Collapsible>
           <Collapsible
+            trigger="Liqueur"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+            open={false}
+          >
+            <div className="filter-items">
+              {liqueurList.map((liqueur) => {
+                return (
+                  <button
+                    key={liqueur}
+                    type="button"
+                    className="collapsible-button"
+                    data-value={liqueur}
+                    onClick={setLiqueurFilter}
+                  >
+                    {liqueur}
+                  </button>
+                );
+              })}
+            </div>
+          </Collapsible>
+          <Collapsible
+            trigger="Juice"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+            open={false}
+          >
+            <div className="filter-items">
+              {juiceList.map((juice) => {
+                return (
+                  <button
+                    key={juice}
+                    type="button"
+                    className="collapsible-button"
+                    data-value={juice}
+                    onClick={setJuiceFilter}
+                  >
+                    {juice}
+                  </button>
+                );
+              })}
+            </div>
+          </Collapsible>
+          <Collapsible
+            trigger="Bitters"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+            open={false}
+          >
+            <div className="filter-items">
+              {bittersList.map((bitters) => {
+                return (
+                  <button
+                    key={bitters}
+                    type="button"
+                    className="collapsible-button"
+                    data-value={bitters}
+                    onClick={setBittersFilter}
+                  >
+                    {bitters}
+                  </button>
+                );
+              })}
+            </div>
+          </Collapsible>
+          <Collapsible
             trigger="Glassware"
             triggerClassName="filter-tab"
             triggerOpenedClassName="filter-tab--open"
-            open={true}
+            open={false}
           >
             <div className="filter-items">
               {glassList.map((glass) => {
