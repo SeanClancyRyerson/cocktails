@@ -82,19 +82,19 @@ function App() {
     setSpiritType("");
 
     const collectionLiqueur = document.getElementsByClassName("active-liqueur");
-    for (var i = 0; i < collectionLiqueur.length; i++) {
+    for (i = 0; i < collectionLiqueur.length; i++) {
       collectionLiqueur[i].classList.remove("active-liqueur");
     }
     setLiqueurType("");
 
     const collectionJuice = document.getElementsByClassName("active-juice");
-    for (var i = 0; i < collectionJuice.length; i++) {
+    for (i = 0; i < collectionJuice.length; i++) {
       collectionJuice[i].classList.remove("active-juice");
     }
     setJuiceType("");
 
     const collectionBitters = document.getElementsByClassName("active-bitters");
-    for (var i = 0; i < collectionBitters.length; i++) {
+    for (i = 0; i < collectionBitters.length; i++) {
       collectionBitters[i].classList.remove("active-bitters");
     }
     setBittersType("");
