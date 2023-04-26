@@ -382,7 +382,7 @@
     {
         "id":25,
         "name":"French 75",
-        "spirit":["Gin", "Brandy", "Wine"],
+        "spirit":["", "Gin", "Brandy", "Wine"],
         "liqueur":[""],
         "bitters":[""],
         "juice":["", "Lemon"],
