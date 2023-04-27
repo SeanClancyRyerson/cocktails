@@ -31,10 +31,13 @@ const glassList = [
 
 const liqueurList = [
   "Aperol",
+  "Apricot Liqueur",
+  "Campari",
   "Cointreau",
   "Curaçao",
+  "Dry Vermouth",
   "Green Chartreuse",
-  "Maraschino",
+  "Maraschino Liqueur",
   "Sweet Vermouth",
   "Triple sec",
   "Yellow Chartreuse",
