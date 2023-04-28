@@ -1,6 +1,6 @@
 [
     {
-        "id":3,
+        "id":1,
         "name":"Old Fashioned",
         "spirit":"Whiskey",
         "liqueur":[""],
@@ -44,7 +44,7 @@
     },
 
     {
-        "id":1,
+        "id":3,
         "name":"Moscow Mule",
         "spirit":"Vodka",
         "liqueur":[""],
@@ -565,6 +565,59 @@
                     "Garnish with orange peel"],
         "notes":"Invented in the 1930's, the hotel and the cocktail have seen some rich history (the hotel is now listed as a national monument).",
         "image":"https://cubancocktailhour.com/wp-content/uploads/2021/06/hotel-nacional-cuban-cocktail.jpg"
+    },
+
+    {
+        "id":33,
+        "name":"Vieux Carré",
+        "spirit":["", "Brandy", "Whiskey"],
+        "liqueur":["", "Bénédictine", "Sweet Vermouth"],
+        "bitters":["", "Angostura", "Peychaud's"],
+        "juice":[""],
+        "glassware":"Rocks Glass",
+        "menu":"false",
+        "description":"The old fashion of New Orleans",
+        "ingredients":["3/4 ounces rye whiskey",
+                    "3/4 ounces cognac",
+                    "3/4 ounces sweet vermouth",
+                    "1/2 ounce Bénédictine",
+                    "2 dashes Angostura bitters",
+                    "2 dashes Peychaud's bitters",
+                    "Garnish: lemon peel"],
+        "directions":["Fill mixing glass with all ingredients",
+                    "Add ice and stir until chilled",
+                    "Strain into rocks glass",
+                    "Garnish with lemon peel"],
+        "notes":"Translating to 'old square', the vieux carré refers to the French Quarter in New Orleans, where this cocktail was born in 1938. Can be served up or on the rocks",
+        "image":"https://www.totalwine.com/site/binaries/t1611861819534/content/gallery/cocktail-recipe-images/recipe-detail-images/whiskey-images/vieux_carre_cocktail"
+    },
+
+    {
+        "id":34,
+        "name":"Long Island Iced Tea",
+        "spirit":["", "Vodka", "Gin", "Rum", "Tequila"],
+        "liqueur":["", "Triple sec"],
+        "bitters":[""],
+        "juice":["", "Lemon"],
+        "glassware":"Pint Glass",
+        "menu":"false",
+        "description":"Long Island Iced Tea",
+        "ingredients":["1 ounce vodka",
+                    "1 ounce light rum",
+                    "1 ounce gin",
+                    "1 ounce tequila",
+                    "1 ounce triple sec",
+                    "1 ounce lemon juice",
+                    "1/2 ounce rich Demerara syrup",
+                    "Coca-cola",
+                    "Garnish: lemon wheel"],
+        "directions":["Fill shaker with all ingregients except cola",
+                    "Add ice and shake ~15 seconds",
+                    "Dirty dump into glass",
+                    "Top with Coca-Cola",
+                    "Garnish with lemon peel"],
+        "notes":"Not for those just looking for a buzz...",
+        "image":"https://www.long-island-iced-tea.com/images/long-island-iced-tea-cocktail2.jpg"
     },
 
     {

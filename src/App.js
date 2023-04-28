@@ -25,6 +25,7 @@ const glassList = [
   "Coupe",
   "Flute",
   "Julep Cup",
+  "Pint Glass",
   "Rocks Glass",
   "Tiki Glass",
 ];
@@ -32,6 +33,7 @@ const glassList = [
 const liqueurList = [
   "Aperol",
   "Apricot Liqueur",
+  "Bénédictine",
   "Campari",
   "Cointreau",
   "Curaçao",
@@ -43,7 +45,7 @@ const liqueurList = [
   "Yellow Chartreuse",
 ];
 
-const bittersList = ["Angostura", "Orange"];
+const bittersList = ["Angostura", "Orange", "Peychaud's"];
 
 const juiceList = [
   "Cranberry",
