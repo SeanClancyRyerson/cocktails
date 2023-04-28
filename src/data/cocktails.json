@@ -355,7 +355,7 @@
                     "Double strain into glass",
                     "Top with soda water"],
         "notes":"Some believe that it is named after La Paloma (“The Dove”), the popular folk song composed in the early 1860s.",
-        "image":"https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5wuDH8GLkXrq_c9k0O9I5Ell02-ZRMSG9Y_uo6VH9kl6RgtdLgtboZpiHX7F9ClapnwO9vLsA2JMBEPEeMgShcfi_58tVDNESA3k-f0s7p5DJHyjeCWPo8-icSlXLnX9qrOM2NoMIz2ctE3YmBWGIeocgee_SFBa-PqwAKzew41Ju_fpcNZxdBKWA/s1600/Paloma%20900.jpg"
+        "image":"https://images.getrecipekit.com/20220805042021-old-fashioned-paloma.png?width=650&quality=90&"
     },
 
     {
@@ -422,7 +422,7 @@
                     "Add ice and shake ~15 seconds",
                     "Strain into glass"],
         "notes":"If you're just trying out mezcal you could try part mezcal part tequila",
-        "image":"https://cdn.greenbardistillery.com/wp-content/uploads/2018/02/MezcalMargaritaCocktailRecipe-GreenbarDistillery.jpg"
+        "image":"https://blackberrybabe.com/wp-content/uploads/2021/03/Cadillac-Margarita-19.jpg"
     },
 
     {
@@ -445,7 +445,7 @@
                     "Double strain into glass",
                     "Drop cherry into the glass"],
         "notes":"All equal parts so it should be an easy one to remeber",
-        "image":"https://noseychef.com/wp-content/uploads/2019/02/IMG_4398.jpg"
+        "image":"https://www.thespruceeats.com/thmb/B5nm1myISuIhSfTCiZfxO1kzoMA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/last-word-cocktail-recipe-760095-Hero_1-c81f1b5d78cb4466b4f2e46109e8318c.jpg"
     },
 
     {
@@ -618,6 +618,30 @@
                     "Garnish with lemon peel"],
         "notes":"Not for those just looking for a buzz...",
         "image":"https://www.long-island-iced-tea.com/images/long-island-iced-tea-cocktail2.jpg"
+    },
+
+    {
+        "id":35,
+        "name":"Shrunken Skull",
+        "spirit":["", "Rum"],
+        "liqueur":[""],
+        "bitters":[""],
+        "juice":["", "Lime"],
+        "glassware":"Tiki Glass",
+        "menu":"false",
+        "description":"Shrunken Skull",
+        "ingredients":["1 ounce Demerara rum",
+                    "1 ounce gold rum",
+                    "1 ounce lime juice",
+                    "1 ounce grenadine",
+                    "Garnish: orchid, pineapple fronds"],
+        "directions":["Fill shaker with all ingregients",
+                    "Add crushed ice and whip-shake",
+                    "Dirty dump into glass",
+                    "Add crushed ice",
+                    "Garnish with orchid and pineapple fronds"],
+        "notes":"Shrunken Skull",
+        "image":"https://www.eastbaytimes.com/wp-content/uploads/2017/09/sjm-l-tiki-0924-011.jpg?w=620"
     },
 
     {
