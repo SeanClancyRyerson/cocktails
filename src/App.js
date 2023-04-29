@@ -204,7 +204,7 @@ function App() {
             trigger="Spirit"
             triggerClassName="filter-tab"
             triggerOpenedClassName="filter-tab--open"
-            open={true}
+            open={false}
           >
             <div className="filter-items">
               {spiritList.map((spirit) => {

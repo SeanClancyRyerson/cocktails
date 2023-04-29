@@ -63,3 +63,14 @@
     margin-bottom: 25px;
 }
 
+/* for media less than 800px wide */
+@media (max-width: 800px) {
+    .drink-image {
+        width: 160px;
+        object-fit: cover;
+    }
+
+    .drink-container {
+        gap: 15px;
+    }
+}

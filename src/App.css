@@ -21,3 +21,11 @@ body {
     grid-column-start: 2;
     grid-column-end: 5;
 }
+
+/* for media less than 800px wide */
+@media (max-width: 800px) {
+    .main-section {
+        grid-column-end: 6;
+        padding-right: 5px;
+    }
+}

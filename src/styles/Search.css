@@ -55,3 +55,19 @@ input:focus {
     box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
     transform: translateY(0);
 }
+
+
+/* for media less than 800px wide */
+@media (max-width: 800px) {
+    input {
+        height: 28px;
+        width: 15rem;
+    }
+
+    .search-button {
+        height: 32px;
+        min-height: 32px;
+        width: auto;
+        padding: calc(.625rem - 1px) calc(1.0rem - 1px);
+    }
+}
