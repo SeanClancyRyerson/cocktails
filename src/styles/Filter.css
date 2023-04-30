@@ -29,22 +29,6 @@
     background-color: #0089c8;
 }
 
-.active-spirit {
-    background-color: #006ea1;
-}
-
-.active-liqueur {
-    background-color: #006ea1;
-}
-
-.active-juice {
-    background-color: #006ea1;
-}
-
-.active-bitters {
-    background-color: #006ea1;
-}
-
-.active-glass {
+.active-spirit, .active-liqueur, .active-juice, .active-bitters, .active-glass, .active-event {
     background-color: #006ea1;
 }

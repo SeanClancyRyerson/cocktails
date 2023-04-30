@@ -47,6 +47,8 @@ const liqueurList = [
 
 const bittersList = ["Angostura", "Orange", "Peychaud's"];
 
+const eventList = ["Kentucky Derby"];
+
 const juiceList = [
   "Cranberry",
   "Grapefruit",
@@ -63,6 +65,7 @@ function App() {
   const [juiceType, setJuiceType] = useState("");
   const [bittersType, setBittersType] = useState("");
   const [glassType, setGlassType] = useState("");
+  const [eventType, setEventType] = useState("");
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value);
@@ -75,7 +78,8 @@ function App() {
       drink.liqueur.includes(liqueurType) &&
       drink.juice.includes(juiceType) &&
       drink.bitters.includes(bittersType) &&
-      drink.glassware.includes(glassType)
+      drink.glassware.includes(glassType) &&
+      drink.event.includes(eventType)
     );
   });
 
@@ -109,6 +113,13 @@ function App() {
       collectionGlass[i].classList.remove("active-glass");
     }
     setGlassType("");
+
+    const collectionEvent = document.getElementsByClassName("active-event");
+    for (i = 0; i < collectionEvent.length; i++) {
+      collectionEvent[i].classList.remove("active-event");
+    }
+    setEventType("");
+
     setSearchValue("");
   };
 
@@ -174,6 +185,19 @@ function App() {
     } else {
       e.currentTarget.classList.toggle("active-glass");
       setGlassType(e.currentTarget.getAttribute("data-value"));
+    }
+  };
+
+  const setEventFilter = (e) => {
+    const collection = document.getElementsByClassName("active-event");
+    for (var i = 0; i < collection.length; i++) {
+      collection[i].classList.remove("active-event");
+    }
+    if (eventType === e.currentTarget.getAttribute("data-value")) {
+      setEventType("");
+    } else {
+      e.currentTarget.classList.toggle("active-event");
+      setEventType(e.currentTarget.getAttribute("data-value"));
     }
   };
 
@@ -305,6 +329,28 @@ function App() {
                     onClick={setGlassFilter}
                   >
                     {glass}
+                  </button>
+                );
+              })}
+            </div>
+          </Collapsible>
+          <Collapsible
+            trigger="Events"
+            triggerClassName="filter-tab"
+            triggerOpenedClassName="filter-tab--open"
+            open={false}
+          >
+            <div className="filter-items">
+              {eventList.map((event) => {
+                return (
+                  <button
+                    key={event}
+                    type="button"
+                    className="collapsible-button"
+                    data-value={event}
+                    onClick={setEventFilter}
+                  >
+                    {event}
                   </button>
                 );
               })}
