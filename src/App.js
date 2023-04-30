@@ -28,6 +28,7 @@ const glassList = [
   "Pint Glass",
   "Rocks Glass",
   "Tiki Glass",
+  "Wine Glass",
 ];
 
 const liqueurList = [
@@ -45,7 +46,7 @@ const liqueurList = [
   "Yellow Chartreuse",
 ];
 
-const bittersList = ["Angostura", "Orange", "Peychaud's"];
+const bittersList = ["Angostura", "Black Lemon", "Orange", "Peychaud's"];
 
 const eventList = ["Kentucky Derby"];
 
